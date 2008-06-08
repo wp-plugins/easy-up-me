@@ -4,7 +4,7 @@ Donate link: http://ele-zeta.com.ar/
 Tags: post, media, upload
 Requires at least: 2.5
 Tested up to: 2.5
-Stable tag: 0.1
+Stable tag: 1.0
 
 This plugin ads the new Wordpress Media Library under the posting box
 
