@@ -32,4 +32,4 @@ Because it's using the default library Wordpress shows in the lightbox, however 
 
 == Screenshots ==
 
-Easy UpMe: `screenshot-1.png`
+Easy UpMe
