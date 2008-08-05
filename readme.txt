@@ -12,7 +12,7 @@ This plugin ads the new Wordpress Media Library under the posting box
 
 This plugin ads the new Wordpress Media Library under the posting box. The plugin allows the poster uploading and posting at the same time.
 
-Many people don't like the LightBox because it limit the dynamic and functionality of the posting so this plugin offers the user a nonlight box media library
+Many people don't like the LightBox because it limits the dynamic and functionality of the posting so this plugin offers the user a nonlight box media library
 
 
 == Installation ==
