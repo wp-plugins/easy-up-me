@@ -17,7 +17,9 @@ function add_easy_upme()
 			function reloadup()
 			{
 				$("add_media").href ='<?=bloginfo('wpurl');?>/wp-admin/media-upload.php';
-				frames["add_media"].window.location.reload();
+				/*$("add_media").location.reload();*/
+				$("add_media").src ='<?=bloginfo('wpurl');?>/wp-admin/media-upload.php';
+				window.frames["add_media"].window.location.reload(true);
 			}
 			</script>
 			<a href="#" onclick="reloadup();return false">Reload</a>
