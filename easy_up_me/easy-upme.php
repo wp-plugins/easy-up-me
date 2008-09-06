@@ -17,12 +17,14 @@ function add_easy_upme()
 			function reloadup()
 			{
 				$("add_media").href ='<?=bloginfo('wpurl');?>/wp-admin/media-upload.php';
-				frames["add_media"].window.location.reload();
+				/*$("add_media").location.reload();*/
+				$("add_media").src ='<?=bloginfo('wpurl');?>/wp-admin/media-upload.php';
+				window.frames["add_media"].window.location.reload(true);
 			}
 			</script>
 			<a href="#" onclick="reloadup();return false">Reload</a>
 	<div class="inside">
-			<iframe frameborder="0" id="add_media" style="width: 669px; height: 512px;" src="<?=bloginfo('wpurl');?>/wp-admin/media-upload.php" hspace="0">
+			<iframe frameborder="0" name="add_media" id="add_media" style="width: 669px; height: 512px;" src="<?=bloginfo('wpurl');?>/wp-admin/media-upload.php" hspace="0">
 			</iframe>
 			</p>
 	</div>
