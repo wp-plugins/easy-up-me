@@ -4,7 +4,7 @@ Plugin Name: Easy Up Me
 Plugin URI: http://ele-zeta.com.ar/2008/05/30/easy-up-me-wordpress-plug-in/
 Description: This pluggin allows the poster uploading a bunch of stuff and writing the post at the same time. No LightBox any more
 Author: Lucas Zallio
-Version: 0.1
+Version: 1.1
 Author URI: http://www.ele-zeta.com.ar
 */
 function add_easy_upme() 
